@@ -3,8 +3,6 @@ import styles from './ColorPicker.module.css';
 
 export default function ColorPicker({ options }) {
   const [activeOptionIdx, setActiveOptionIdx] = useState(0);
-  const [activeOptionIdx2, setActiveOptionIdx2] = useState(4);
-  console.log(useState());
   const { label } = options[activeOptionIdx];
 
   const makeOptionClassName = index => {
